@@ -19,7 +19,7 @@ class {{#pascalCase}}{{root_widget_name}} {{/pascalCase}} extends StatelessWidge
     return CupertinoApp(
     {{/uses_cupertino}}
     {{^uses_cupertino}}
-    return const MaterialApp(
+    return  MaterialApp(
     {{/uses_cupertino}}
       home: Scaffold(
         body:Container(),
