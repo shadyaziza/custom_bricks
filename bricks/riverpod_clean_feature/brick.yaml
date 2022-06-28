@@ -1,0 +1,8 @@
+name: riverpod_clean_feature
+
+description: Starter template that generates an opiniated clean folder strcuture for a feature
+
+version: 0.1.0+1
+
+vars:
+  - name

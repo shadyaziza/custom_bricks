@@ -1,0 +1,12 @@
+name: hooks_riverpod_starter
+
+description: Starter template that generates folder app structure with support for riverpod, hooks, freezed and an optional support for go_router
+
+version: 0.1.0+1
+
+vars:
+  - project_name
+  - description
+  - root_widget_name
+  - uses_go_router 
+  - uses_cupertino

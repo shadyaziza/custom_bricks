@@ -1,0 +1,69 @@
+name: {{project_name}}
+description: {{description}}
+ 
+publish_to: 'none'  
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+ 
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  hooks_riverpod: ^2.0.0-dev.9
+
+  {{#uses_go_router}}
+  go_router: ^4.1.0
+  {{/uses_go_router}}
+
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.2.0
+  freezed_annotation: ^2.0.3
+  freezed: ^2.0.3+1
+  build_runner: ^2.1.11     
+  flutter_lints: ^2.0.0
+
+ 
+ 
+
+ 
+flutter:
+  uses-material-design: true
+
+   
+   
+   
+   
+
+   
+   
+
+   
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
